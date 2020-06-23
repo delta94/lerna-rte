@@ -1,0 +1,4 @@
+.LernaRTEContent--Inline,
+.LernaRTEContent > div {
+    padding: 0 !important;
+}

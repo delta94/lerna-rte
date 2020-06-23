@@ -1,0 +1,27 @@
+.LernaRTE iframe.ql-video {
+    width: 854px;
+    height: 480px;
+}
+
+.LernaRTE img {
+    max-width: 854px;
+    max-height: 480px;
+}
+
+.LernaRTE {
+    text-align: center /* make toolbars item centered */;
+}
+
+.LernaRTE .ql-code-block {
+    position: relative;
+}
+
+.LernaRTE .ql-code-block:before {
+    position: absolute;
+    content: "{}";
+    font-family: "Source Code Pro", monospace;
+    font-size: 9px;
+    font-weight: bold;
+    bottom: 1px;
+    right: -2px;
+}
