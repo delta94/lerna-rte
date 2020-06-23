@@ -2,16 +2,9 @@ import React from 'react';
 import "./EditorContent.css";
 
 var EditorContent = function EditorContent(props) {
-  var content = props.content,
-      inline = props.inline;
-  var className = "ql-editor LernaRTEContent";
-
-  if (inline) {
-    className += " LernaRTEContent--Inline";
-  }
-
+  var content = props.content;
   return /*#__PURE__*/React.createElement("div", {
-    className: className
+    className: "ql-editor LernaRTEContent"
   }, /*#__PURE__*/React.createElement("div", {
     className: "ql-editor",
     dangerouslySetInnerHTML: {
