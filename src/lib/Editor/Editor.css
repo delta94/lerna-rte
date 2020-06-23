@@ -1,9 +1,12 @@
-.LernaRTE iframe.ql-video {
+.LernaRTE iframe.ql-video,
+.LernaRTEContent iframe.ql-video {
     width: 854px;
     height: 480px;
 }
 
-.LernaRTE img {
+.LernaRTE img,
+.LernaRTEContent img
+{
     max-width: 854px;
     max-height: 480px;
 }
